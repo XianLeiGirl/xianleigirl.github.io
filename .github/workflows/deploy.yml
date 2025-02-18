@@ -19,7 +19,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
-	extended: true 
+        extended: true # 确保正确的缩进
 
     - name: Build site
       run: hugo
